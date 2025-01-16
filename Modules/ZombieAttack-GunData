@@ -1,0 +1,710 @@
+local tbl = {
+	Default = ColorSequence.new(Color3.fromRGB(255, 163, 58));
+	Cyan = ColorSequence.new(Color3.fromRGB(134, 255, 251));
+	Red = ColorSequence.new(Color3.fromRGB(255, 0, 0));
+	Green = ColorSequence.new(Color3.fromRGB(0, 255, 0));
+	Yellow = ColorSequence.new(Color3.fromRGB(255, 255, 0));
+	Purple = ColorSequence.new(Color3.fromRGB(255, 0, 255));
+	White = ColorSequence.new(Color3.fromRGB(255, 255, 255));
+	Halloween = ColorSequence.new(Color3.new(0, 0, 0), Color3.new(1, 0.5, 0));
+	XMas = ColorSequence.new(Color3.new(1, 0, 0), Color3.new(0, 1, 0));
+}
+return {
+	M16 = {
+		Damage = 19;
+		Length = 500;
+		Firerate = 10;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.025;
+			Max = 0.3;
+			Inc = 0.066;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Default;
+	};
+	["Golden Rifle"] = {
+		Damage = 22.5;
+		Length = 500;
+		Firerate = 10;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.025;
+			Max = 0.3;
+			Inc = 0.06;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Yellow;
+	};
+	["Candy Cane Minigun"] = {
+		Damage = 11.5;
+		Length = 300;
+		Firerate = 30;
+		HeadshotMultiplier = 1.2;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 1) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.2;
+			Max = 0.3;
+			Inc = 0.015;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.XMas;
+	};
+	["Pumpkin Blaster"] = {
+		Damage = 16;
+		Length = 300;
+		Firerate = 20;
+		HeadshotMultiplier = 1.2;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.025;
+			Max = 0.35;
+			Inc = 0.02;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Halloween;
+	};
+	["Halloween Staff"] = {
+		Damage = 15;
+		Length = 300;
+		Firerate = 4.75;
+		HeadshotMultiplier = 1;
+		Automatic = true;
+		BulletsPerShot = 5;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.35;
+			Max = 0.45;
+			Inc = 0.05;
+			Rec = 0.1;
+		};
+		BulletColor = tbl.Halloween;
+	};
+	["Alien Blaster"] = {
+		Damage = 11;
+		Length = 300;
+		Firerate = 26;
+		HeadshotMultiplier = 1;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.025;
+			Max = 0.35;
+			Inc = 0.02;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Green;
+	};
+	["Invader Crossbow"] = {
+		Damage = 145;
+		Length = 500;
+		Firerate = 1.8;
+		HeadshotMultiplier = 1.25;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 2;
+			Inc = 2;
+			Rec = 3.6;
+		};
+		BulletColor = tbl.Green;
+	};
+	["Tactical Shotgun"] = {
+		Damage = 20;
+		Length = 200;
+		Firerate = 3;
+		HeadshotMultiplier = 1;
+		Automatic = true;
+		BulletsPerShot = 5;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.5;
+			Max = 1;
+			Inc = 0.4;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Default;
+	};
+	Cobra = {
+		Damage = 125;
+		Length = 1000;
+		Firerate = 1.5;
+		HeadshotMultiplier = 1.75;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 3;
+			Inc = 3;
+			Rec = 6;
+		};
+		BulletColor = tbl.Red;
+	};
+	Venom = {
+		Damage = 350;
+		Length = 1000;
+		Firerate = 1;
+		HeadshotMultiplier = 1.3;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.02;
+			Max = 3;
+			Inc = 3;
+			Rec = 3;
+		};
+		BulletColor = tbl.Green;
+	};
+	["Trench Shotgun"] = {
+		Damage = 23;
+		Length = 300;
+		Firerate = 2.5;
+		HeadshotMultiplier = 1;
+		Automatic = false;
+		BulletsPerShot = 5;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.4;
+			Max = 1.2;
+			Inc = 0.5;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Default;
+	};
+	Railgun = {
+		Damage = 400;
+		Length = 500;
+		Firerate = 1;
+		HeadshotMultiplier = 1;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 8;
+			Inc = 8;
+			Rec = 8;
+		};
+		BulletColor = tbl.Red;
+	};
+	Ghost = {
+		Damage = 27;
+		Length = 400;
+		Firerate = 10;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 0.3;
+			Inc = 0.05;
+			Rec = 0.3;
+		};
+		BulletColor = tbl.Purple;
+	};
+	["M1 Garand"] = {
+		Damage = 60;
+		Length = 600;
+		Firerate = 3;
+		HeadshotMultiplier = 1.5;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 0.2;
+			Inc = 0.2;
+			Rec = 0.3;
+		};
+		BulletColor = tbl.Default;
+	};
+	["Fiery Cannon"] = {
+		Damage = 45;
+		Length = 600;
+		Firerate = 2.5;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 2;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.1;
+			Max = 0.3;
+			Inc = 0.1;
+			Rec = 0.3;
+		};
+		BulletColor = tbl.Red;
+	};
+	Annihilator = {
+		Damage = 17;
+		Length = 600;
+		Firerate = 20;
+		HeadshotMultiplier = 1.3;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.05;
+			Max = 0.4;
+			Inc = 0.1;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Green;
+	};
+	["Alien Rifle"] = {
+		Damage = 40;
+		Length = 300;
+		Firerate = 7;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.08;
+			Max = 0.25;
+			Inc = 0.08;
+			Rec = 0.08;
+		};
+		BulletColor = tbl.Cyan;
+	};
+	Sniper = {
+		Damage = 100;
+		Length = 1000;
+		Firerate = 1.5;
+		HeadshotMultiplier = 2;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 2;
+			Inc = 2;
+			Rec = 4;
+		};
+		BulletColor = tbl.Default;
+	};
+	["Machine Gun"] = {
+		Damage = 16;
+		Length = 400;
+		Firerate = 17;
+		HeadshotMultiplier = 1.3;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.15;
+			Max = 0.45;
+			Inc = 0.025;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Default;
+	};
+	Minigun = {
+		Damage = 26;
+		Length = 300;
+		Firerate = 21.5;
+		HeadshotMultiplier = 1;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 1) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.2;
+			Max = 0.3;
+			Inc = 0.015;
+			Rec = 0.3;
+		};
+		BulletColor = tbl.Default;
+	};
+	Thompson = {
+		Damage = 16;
+		Length = 400;
+		Firerate = 13;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.1;
+			Max = 0.5;
+			Inc = 0.03;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.Default;
+	};
+	["Type 100"] = {
+		Damage = 23;
+		Length = 400;
+		Firerate = 8;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.1;
+			Max = 0.3;
+			Inc = 0.025;
+			Rec = 0.3;
+		};
+		BulletColor = tbl.Default;
+	};
+	Uzi = {
+		Damage = 17;
+		Length = 300;
+		Firerate = 10;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "Handgun";
+		BackOffset = CFrame.new(1.1, -1.2, 0.2) * CFrame.Angles(-2, 0, 0);
+		Spread = {
+			Min = 0.15;
+			Max = 0.45;
+			Inc = 0.055;
+			Rec = 0.35;
+		};
+		BulletColor = tbl.Default;
+	};
+	Revolver = {
+		Damage = 36;
+		Length = 500;
+		Firerate = 4;
+		HeadshotMultiplier = 1.66;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "Handgun";
+		BackOffset = CFrame.new(1.1, -1.2, 0) * CFrame.Angles(-2, 0, 0);
+		Spread = {
+			Min = 0.04;
+			Max = 0.5;
+			Inc = 0.25;
+			Rec = 0.55;
+		};
+		BulletColor = tbl.Default;
+	};
+	Pistol = {
+		Damage = 17;
+		Length = 300;
+		Firerate = 8.5;
+		HeadshotMultiplier = 1.5;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "Handgun";
+		BackOffset = CFrame.new(1.1, -1.2, 0) * CFrame.Angles(-2, 0, 0);
+		Spread = {
+			Min = 0.05;
+			Max = 0.3;
+			Inc = 0.2;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.Default;
+	};
+	["Space Gun"] = {
+		Damage = 20.5;
+		Length = 300;
+		Firerate = 8.5;
+		HeadshotMultiplier = 1.1;
+		Automatic = false;
+		BulletsPerShot = 2;
+		Type = "Handgun";
+		BackOffset = CFrame.new(1.1, -1.2, 0) * CFrame.Angles(-2, 0, 0);
+		Spread = {
+			Min = 0.1;
+			Max = 0.4;
+			Inc = 0.2;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.Cyan;
+	};
+	["Retribution Ray"] = {
+		Damage = 50;
+		Length = 600;
+		Firerate = 6;
+		HeadshotMultiplier = 1.25;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "Handgun";
+		BackOffset = CFrame.new(1.1, -1.2, 0) * CFrame.Angles(-2, 0, 0);
+		Spread = {
+			Min = 0.01;
+			Max = 0.5;
+			Inc = 0.15;
+			Rec = 0.4;
+		};
+		BulletColor = tbl.Red;
+	};
+	["Golden Pistol"] = {
+		Damage = 49;
+		Length = 300;
+		Firerate = 6.5;
+		HeadshotMultiplier = 1.5;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "Handgun";
+		BackOffset = CFrame.new(1.1, -1.2, 0) * CFrame.Angles(-2, 0, 0);
+		Spread = {
+			Min = 0.05;
+			Max = 0.3;
+			Inc = 0.2;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.Yellow;
+	};
+	Biohazard = {
+		Damage = 30;
+		Length = 300;
+		Firerate = 10;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.1;
+			Max = 0.35;
+			Inc = 0.08;
+			Rec = 0.08;
+		};
+		BulletColor = tbl.Red;
+	};
+	["Platinum Gun"] = {
+		Damage = 70;
+		Length = 300;
+		Firerate = 4;
+		HeadshotMultiplier = 1.3;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "Handgun";
+		BackOffset = CFrame.new(1.1, -1.2, 0) * CFrame.Angles(-2, 0, 0);
+		Spread = {
+			Min = 0.05;
+			Max = 0.5;
+			Inc = 0.3;
+			Rec = 1;
+		};
+		BulletColor = tbl.White;
+	};
+	["Scope Rifle"] = {
+		Damage = 100;
+		Length = 500;
+		Firerate = 2.5;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 0.4;
+			Inc = 0.3;
+			Rec = 0.3;
+		};
+		BulletColor = tbl.White;
+	};
+	["Viper Strike"] = {
+		Damage = 320;
+		Length = 500;
+		Firerate = 2.5;
+		HeadshotMultiplier = 2;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 0.4;
+			Inc = 0.3;
+			Rec = 0.3;
+		};
+		BulletColor = tbl.Red;
+	};
+	["Ray Gun"] = {
+		Damage = 51;
+		Length = 300;
+		Firerate = 6;
+		HeadshotMultiplier = 1.4;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.05;
+			Max = 0.4;
+			Inc = 0.2;
+			Rec = 0.2;
+		};
+		BulletColor = tbl.Red;
+	};
+	Toxic = {
+		Damage = 23;
+		Length = 400;
+		Firerate = 10;
+		HeadshotMultiplier = 1.5;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.05;
+			Max = 0.5;
+			Inc = 0.03;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.Green;
+	};
+	Blaster = {
+		Damage = 62;
+		Length = 300;
+		Firerate = 4;
+		HeadshotMultiplier = 1.3;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "Handgun";
+		BackOffset = CFrame.new(1.1, -1.2, 0) * CFrame.Angles(-2, 0, 0);
+		Spread = {
+			Min = 0.1;
+			Max = 0.4;
+			Inc = 0.15;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.Cyan;
+	};
+	["Rainbow Blaster"] = {
+		Damage = 24;
+		Length = 400;
+		Firerate = 15;
+		HeadshotMultiplier = 1.3;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.1;
+			Max = 0.5;
+			Inc = 0.03;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.White;
+	};
+	["Hex Spitter"] = {
+		Damage = 45;
+		Length = 400;
+		Firerate = 8;
+		HeadshotMultiplier = 1.3;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.03;
+			Max = 0.04;
+			Inc = 0.03;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.Cyan;
+	};
+	["Beam Launcher"] = {
+		Damage = 319;
+		Length = 400;
+		Firerate = 1.5;
+		HeadshotMultiplier = 1;
+		Automatic = false;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.01;
+			Max = 2;
+			Inc = 2;
+			Rec = 4;
+		};
+		BulletColor = tbl.Red;
+	};
+	["Gatling Laser"] = {
+		Damage = 25;
+		Length = 400;
+		Firerate = 20;
+		HeadshotMultiplier = 1;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.1;
+			Max = 0.6;
+			Inc = 0.03;
+			Rec = 2;
+		};
+		BulletColor = tbl.Cyan;
+	};
+	["Tri Laser"] = {
+		Damage = 50;
+		Length = 400;
+		Firerate = 3.44;
+		HeadshotMultiplier = 1;
+		Automatic = true;
+		BulletsPerShot = 3;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0.1;
+			Max = 0.8;
+			Inc = 0.1;
+			Rec = 0.5;
+		};
+		BulletColor = tbl.Cyan;
+	};
+	["Techno Rifle"] = {
+		Damage = 175;
+		Length = 1000;
+		Firerate = 3;
+		HeadshotMultiplier = 1;
+		Automatic = true;
+		BulletsPerShot = 1;
+		Type = "AssaultRifle";
+		BackOffset = CFrame.new(0, 0.2, 0.6) * CFrame.Angles(-1.57, 1, 1.57);
+		Spread = {
+			Min = 0;
+			Max = 0;
+			Inc = 0;
+			Rec = 0;
+		};
+		BulletColor = tbl.Purple;
+	};
+}
