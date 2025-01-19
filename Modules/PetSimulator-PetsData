@@ -49,6 +49,216 @@ return {
 		GoldenImage = "rbxassetid://2540376849";
 		GoldenReferenceName = "Cat Golden";
 	};
+	["10001"] = {
+		DisplayName = "Lava Zebra";
+		ReferenceName = "Zebra Lava";
+		Image = "rbxassetid://2540401483";
+		Rarity = 6;
+		Height = 1;
+		Level = {1260, 1540};
+		GoldenImage = "rbxassetid://2540389105";
+		GoldenReferenceName = "Zebra Golden";
+	};
+	["10002"] = {
+		DisplayName = "Lava Dalmatian";
+		ReferenceName = "Dog Lava Dalmatian";
+		Image = "rbxassetid://2540371829";
+		Rarity = 6;
+		Height = 1;
+		Level = {1260, 1540};
+		GoldenImage = "rbxassetid://2551498938";
+		GoldenReferenceName = "Dog Dalmatian Golden";
+	};
+	["10003"] = {
+		DisplayName = "Lava Turtle";
+		ReferenceName = "Turtle Lava";
+		Image = "rbxassetid://2540398635";
+		Rarity = 6;
+		Height = 1;
+		Level = {1260, 1540};
+		GoldenImage = "rbxassetid://2540388028";
+		GoldenReferenceName = "Turtle Golden";
+	};
+	["10004"] = {
+		DisplayName = "Electric Slime";
+		ReferenceName = "Slime Electric";
+		Image = "rbxassetid://2540395814";
+		Rarity = 6;
+		Height = 0.8;
+		Level = {1485, 1815};
+		GoldenImage = "rbxassetid://2540385700";
+		GoldenReferenceName = "Slime Golden";
+	};
+	["10005"] = {
+		DisplayName = "Electric Ghost";
+		ReferenceName = "Ghost Electric";
+		Image = "rbxassetid://2540374681";
+		Rarity = 6;
+		Height = 1;
+		Level = {1485, 1815};
+		GoldenImage = "rbxassetid://2540379366";
+		GoldenReferenceName = "Ghost Golden";
+	};
+	["10006"] = {
+		DisplayName = "Dominus Messor";
+		ReferenceName = "Dominus Messor";
+		Image = "rbxassetid://2540372896";
+		Rarity = 9;
+		Height = 1;
+		Level = {1710, 2090};
+		GoldenImage = "rbxassetid://2540378825";
+		GoldenReferenceName = "Dominus Golden";
+	};
+	["10007"] = {
+		DisplayName = "Dominus Frigidus";
+		ReferenceName = "Dominus Frigidus";
+		Image = "rbxassetid://2540372155";
+		Rarity = 9;
+		Height = 1;
+		Level = {1710, 2090};
+		GoldenImage = "rbxassetid://2540378825";
+		GoldenReferenceName = "Dominus Golden";
+	};
+	["10008"] = {
+		DisplayName = "Dominus Empyreus";
+		ReferenceName = "Dominus Empyreus";
+		Image = "rbxassetid://2540374131";
+		Rarity = 9;
+		Height = 1;
+		Level = {1710, 2090};
+		GoldenImage = "rbxassetid://2540378825";
+		GoldenReferenceName = "Dominus Golden";
+	};
+	["11001"] = {
+		DisplayName = "Zombie";
+		ReferenceName = "Zombie";
+		Image = "rbxassetid://2540401989";
+		Rarity = 6;
+		Height = 1;
+		Level = {2070, 2528};
+		GoldenImage = "rbxassetid://2540389611";
+		GoldenReferenceName = "Zombie Golden";
+	};
+	["11002"] = {
+		DisplayName = "Sherbert";
+		ReferenceName = "Sherbert";
+		Image = "rbxassetid://2540395261";
+		Rarity = 6;
+		Height = 1;
+		Level = {2070, 2528};
+		GoldenImage = "rbxassetid://2540385213";
+		GoldenReferenceName = "Sherbert Golden";
+	};
+	["11003"] = {
+		DisplayName = "Robot";
+		ReferenceName = "Robot";
+		Image = "rbxassetid://2540394693";
+		Rarity = 6;
+		Height = 1;
+		Level = {2070, 2528};
+		GoldenImage = "rbxassetid://2540384526";
+		GoldenReferenceName = "Robot Golden";
+	};
+	["11004"] = {
+		DisplayName = "Lava Watermelon";
+		ReferenceName = "Watermelon Lava";
+		Image = "rbxassetid://2540391700";
+		Rarity = 6;
+		Height = 1;
+		Level = {2070, 2528};
+		GoldenImage = "rbxassetid://2540388314";
+		GoldenReferenceName = "Watermelon Golden";
+	};
+	["11005"] = {
+		DisplayName = "Wavy Bee";
+		ReferenceName = "Bee Wavy";
+		Image = "rbxassetid://2540399251";
+		Rarity = 6;
+		Height = 3;
+		Level = {2070, 2528};
+		GoldenImage = "rbxassetid://2540376135";
+		GoldenReferenceName = "Bee Golden";
+	};
+	["11006"] = {
+		DisplayName = "Unicorn";
+		ReferenceName = "Unicorn";
+		Image = "rbxassetid://2540398868";
+		Rarity = 7;
+		Height = 1;
+		Level = {2520, 3080};
+		GoldenImage = "rbxassetid://2540388157";
+		GoldenReferenceName = "Unicorn Golden";
+	};
+	["12001"] = {
+		DisplayName = "Tank";
+		ReferenceName = "Tank";
+		Image = "rbxassetid://2540398413";
+		Rarity = 6;
+		Height = 1;
+		Level = {3600, 4398};
+		GoldenImage = "rbxassetid://2540387722";
+		GoldenReferenceName = "Tank Golden";
+	};
+	["12002"] = {
+		DisplayName = "Reaper";
+		ReferenceName = "Reaper";
+		Image = "rbxassetid://2540394424";
+		Rarity = 6;
+		Height = 1;
+		Level = {3600, 4398};
+		GoldenImage = "rbxassetid://2540384251";
+		GoldenReferenceName = "Reaper Golden";
+	};
+	["12003"] = {
+		DisplayName = "Angel";
+		ReferenceName = "Angel";
+		Image = "rbxassetid://2540368494";
+		Rarity = 6;
+		Height = 3;
+		Level = {3600, 4398};
+		GoldenImage = "rbxassetid://2540375584";
+		GoldenReferenceName = "Angel Golden";
+	};
+	["12004"] = {
+		DisplayName = "Fire King";
+		ReferenceName = "Fire King";
+		Image = "rbxassetid://2540374573";
+		Rarity = 6;
+		Height = 1;
+		Level = {3870, 4730};
+		GoldenImage = "rbxassetid://2540379259";
+		GoldenReferenceName = "Fire King Golden";
+	};
+	["12005"] = {
+		DisplayName = "Ice Queen";
+		ReferenceName = "Ice Queen";
+		Image = "rbxassetid://2540390852";
+		Rarity = 6;
+		Height = 1;
+		Level = {3870, 4730};
+		GoldenImage = "rbxassetid://2540380302";
+		GoldenReferenceName = "Ice Queen Golden";
+	};
+	["12006"] = {
+		DisplayName = "Immortuos";
+		ReferenceName = "Immortuos";
+		Image = "rbxassetid://2540390999";
+		Rarity = 8;
+		Height = 1;
+		Level = {6500, 8500};
+		GoldenImage = "rbxassetid://2540380450";
+		GoldenReferenceName = "Immortuos Golden";
+	};
+	["12007"] = {
+		DisplayName = "Mortuus";
+		ReferenceName = "Mortuus";
+		Image = "rbxassetid://2540392545";
+		Rarity = 10;
+		Height = 1;
+		Level = {45000, 55000};
+		GoldenImage = "rbxassetid://2540380450";
+		GoldenReferenceName = "Immortuos Golden";
+	};
 	["2001"] = {
 		DisplayName = "Brown Cat";
 		ReferenceName = "Cat Brown";
@@ -379,265 +589,55 @@ return {
 		GoldenImage = "rbxassetid://2540377754";
 		GoldenReferenceName = "Cyclops Golden";
 	};
-		["9001"] = {
-			DisplayName = "Fantasy Dragon";
-			ReferenceName = "Dragon Fantasy";
-			Image = "rbxassetid://2540374475";
-			Rarity = 5;
-			Height = 3;
-			Level = {675, 825};
-			GoldenImage = "rbxassetid://2540379139";
-			GoldenReferenceName = "Dragon Golden";
-		};
-		["9002"] = {
-			DisplayName = "Cherry Bomb";
-			ReferenceName = "Bomb Cherry";
-			Image = "rbxassetid://2540369074";
-			Rarity = 5;
-			Height = 1;
-			Level = {675, 825};
-			GoldenImage = "rbxassetid://2540376367";
-			GoldenReferenceName = "Bomb Golden";
-		};
-		["9003"] = {
-			DisplayName = "Wavy Zebra";
-			ReferenceName = "Zebra Wavy";
-			Image = "rbxassetid://2540400076";
-			Rarity = 5;
-			Height = 1;
-			Level = {675, 825};
-			GoldenImage = "rbxassetid://2540389105";
-			GoldenReferenceName = "Zebra Golden";
-		};
-		["9004"] = {
-			DisplayName = "Wavy Cheeta";
-			ReferenceName = "Cheeta Wavy";
-			Image = "rbxassetid://2540399377";
-			Rarity = 5;
-			Height = 1;
-			Level = {675, 825};
-			GoldenImage = "rbxassetid://2540376955";
-			GoldenReferenceName = "Cheeta Golden";
-		};
-		["9005"] = {
-			DisplayName = "Wavy Tiger";
-			ReferenceName = "Tiger Wavy";
-			Image = "rbxassetid://2540399958";
-			Rarity = 5;
-			Height = 1;
-			Level = {675, 825};
-			GoldenImage = "rbxassetid://2540387866";
-			GoldenReferenceName = "Tiger Golden";
-		};
-	["10001"] = {
-		DisplayName = "Lava Zebra";
-		ReferenceName = "Zebra Lava";
-		Image = "rbxassetid://2540401483";
-		Rarity = 6;
+	["9001"] = {
+		DisplayName = "Fantasy Dragon";
+		ReferenceName = "Dragon Fantasy";
+		Image = "rbxassetid://2540374475";
+		Rarity = 5;
+		Height = 3;
+		Level = {675, 825};
+		GoldenImage = "rbxassetid://2540379139";
+		GoldenReferenceName = "Dragon Golden";
+	};
+	["9002"] = {
+		DisplayName = "Cherry Bomb";
+		ReferenceName = "Bomb Cherry";
+		Image = "rbxassetid://2540369074";
+		Rarity = 5;
 		Height = 1;
-		Level = {1260, 1540};
+		Level = {675, 825};
+		GoldenImage = "rbxassetid://2540376367";
+		GoldenReferenceName = "Bomb Golden";
+	};
+	["9003"] = {
+		DisplayName = "Wavy Zebra";
+		ReferenceName = "Zebra Wavy";
+		Image = "rbxassetid://2540400076";
+		Rarity = 5;
+		Height = 1;
+		Level = {675, 825};
 		GoldenImage = "rbxassetid://2540389105";
 		GoldenReferenceName = "Zebra Golden";
 	};
-	["10002"] = {
-		DisplayName = "Lava Dalmatian";
-		ReferenceName = "Dog Lava Dalmatian";
-		Image = "rbxassetid://2540371829";
-		Rarity = 6;
+	["9004"] = {
+		DisplayName = "Wavy Cheeta";
+		ReferenceName = "Cheeta Wavy";
+		Image = "rbxassetid://2540399377";
+		Rarity = 5;
 		Height = 1;
-		Level = {1260, 1540};
-		GoldenImage = "rbxassetid://2551498938";
-		GoldenReferenceName = "Dog Dalmatian Golden";
+		Level = {675, 825};
+		GoldenImage = "rbxassetid://2540376955";
+		GoldenReferenceName = "Cheeta Golden";
 	};
-	["10003"] = {
-		DisplayName = "Lava Turtle";
-		ReferenceName = "Turtle Lava";
-		Image = "rbxassetid://2540398635";
-		Rarity = 6;
+	["9005"] = {
+		DisplayName = "Wavy Tiger";
+		ReferenceName = "Tiger Wavy";
+		Image = "rbxassetid://2540399958";
+		Rarity = 5;
 		Height = 1;
-		Level = {1260, 1540};
-		GoldenImage = "rbxassetid://2540388028";
-		GoldenReferenceName = "Turtle Golden";
-	};
-	["10004"] = {
-		DisplayName = "Electric Slime";
-		ReferenceName = "Slime Electric";
-		Image = "rbxassetid://2540395814";
-		Rarity = 6;
-		Height = 0.8;
-		Level = {1485, 1815};
-		GoldenImage = "rbxassetid://2540385700";
-		GoldenReferenceName = "Slime Golden";
-	};
-	["10005"] = {
-		DisplayName = "Electric Ghost";
-		ReferenceName = "Ghost Electric";
-		Image = "rbxassetid://2540374681";
-		Rarity = 6;
-		Height = 1;
-		Level = {1485, 1815};
-		GoldenImage = "rbxassetid://2540379366";
-		GoldenReferenceName = "Ghost Golden";
-	};
-	["10006"] = {
-		DisplayName = "Dominus Messor";
-		ReferenceName = "Dominus Messor";
-		Image = "rbxassetid://2540372896";
-		Rarity = 9;
-		Height = 1;
-		Level = {1710, 2090};
-		GoldenImage = "rbxassetid://2540378825";
-		GoldenReferenceName = "Dominus Golden";
-	};
-	["10007"] = {
-		DisplayName = "Dominus Frigidus";
-		ReferenceName = "Dominus Frigidus";
-		Image = "rbxassetid://2540372155";
-		Rarity = 9;
-		Height = 1;
-		Level = {1710, 2090};
-		GoldenImage = "rbxassetid://2540378825";
-		GoldenReferenceName = "Dominus Golden";
-	};
-	["10008"] = {
-		DisplayName = "Dominus Empyreus";
-		ReferenceName = "Dominus Empyreus";
-		Image = "rbxassetid://2540374131";
-		Rarity = 9;
-		Height = 1;
-		Level = {1710, 2090};
-		GoldenImage = "rbxassetid://2540378825";
-		GoldenReferenceName = "Dominus Golden";
-	};
-	["11001"] = {
-		DisplayName = "Zombie";
-		ReferenceName = "Zombie";
-		Image = "rbxassetid://2540401989";
-		Rarity = 6;
-		Height = 1;
-		Level = {2070, 2528};
-		GoldenImage = "rbxassetid://2540389611";
-		GoldenReferenceName = "Zombie Golden";
-	};
-	["11002"] = {
-		DisplayName = "Sherbert";
-		ReferenceName = "Sherbert";
-		Image = "rbxassetid://2540395261";
-		Rarity = 6;
-		Height = 1;
-		Level = {2070, 2528};
-		GoldenImage = "rbxassetid://2540385213";
-		GoldenReferenceName = "Sherbert Golden";
-	};
-	["11003"] = {
-		DisplayName = "Robot";
-		ReferenceName = "Robot";
-		Image = "rbxassetid://2540394693";
-		Rarity = 6;
-		Height = 1;
-		Level = {2070, 2528};
-		GoldenImage = "rbxassetid://2540384526";
-		GoldenReferenceName = "Robot Golden";
-	};
-	["11004"] = {
-		DisplayName = "Lava Watermelon";
-		ReferenceName = "Watermelon Lava";
-		Image = "rbxassetid://2540391700";
-		Rarity = 6;
-		Height = 1;
-		Level = {2070, 2528};
-		GoldenImage = "rbxassetid://2540388314";
-		GoldenReferenceName = "Watermelon Golden";
-	};
-	["11005"] = {
-		DisplayName = "Wavy Bee";
-		ReferenceName = "Bee Wavy";
-		Image = "rbxassetid://2540399251";
-		Rarity = 6;
-		Height = 3;
-		Level = {2070, 2528};
-		GoldenImage = "rbxassetid://2540376135";
-		GoldenReferenceName = "Bee Golden";
-	};
-	["11006"] = {
-		DisplayName = "Unicorn";
-		ReferenceName = "Unicorn";
-		Image = "rbxassetid://2540398868";
-		Rarity = 7;
-		Height = 1;
-		Level = {2520, 3080};
-		GoldenImage = "rbxassetid://2540388157";
-		GoldenReferenceName = "Unicorn Golden";
-	};
-	["12001"] = {
-		DisplayName = "Tank";
-		ReferenceName = "Tank";
-		Image = "rbxassetid://2540398413";
-		Rarity = 6;
-		Height = 1;
-		Level = {3600, 4398};
-		GoldenImage = "rbxassetid://2540387722";
-		GoldenReferenceName = "Tank Golden";
-	};
-	["12002"] = {
-		DisplayName = "Reaper";
-		ReferenceName = "Reaper";
-		Image = "rbxassetid://2540394424";
-		Rarity = 6;
-		Height = 1;
-		Level = {3600, 4398};
-		GoldenImage = "rbxassetid://2540384251";
-		GoldenReferenceName = "Reaper Golden";
-	};
-	["12003"] = {
-		DisplayName = "Angel";
-		ReferenceName = "Angel";
-		Image = "rbxassetid://2540368494";
-		Rarity = 6;
-		Height = 3;
-		Level = {3600, 4398};
-		GoldenImage = "rbxassetid://2540375584";
-		GoldenReferenceName = "Angel Golden";
-	};
-	["12004"] = {
-		DisplayName = "Fire King";
-		ReferenceName = "Fire King";
-		Image = "rbxassetid://2540374573";
-		Rarity = 6;
-		Height = 1;
-		Level = {3870, 4730};
-		GoldenImage = "rbxassetid://2540379259";
-		GoldenReferenceName = "Fire King Golden";
-	};
-	["12005"] = {
-		DisplayName = "Ice Queen";
-		ReferenceName = "Ice Queen";
-		Image = "rbxassetid://2540390852";
-		Rarity = 6;
-		Height = 1;
-		Level = {3870, 4730};
-		GoldenImage = "rbxassetid://2540380302";
-		GoldenReferenceName = "Ice Queen Golden";
-	};
-	["12006"] = {
-		DisplayName = "Immortuos";
-		ReferenceName = "Immortuos";
-		Image = "rbxassetid://2540390999";
-		Rarity = 8;
-		Height = 1;
-		Level = {6500, 8500};
-		GoldenImage = "rbxassetid://2540380450";
-		GoldenReferenceName = "Immortuos Golden";
-	};
-	["12007"] = {
-		DisplayName = "Mortuus";
-		ReferenceName = "Mortuus";
-		Image = "rbxassetid://2540392545";
-		Rarity = 10;
-		Height = 1;
-		Level = {45000, 55000};
-		GoldenImage = "rbxassetid://2540380450";
-		GoldenReferenceName = "Immortuos Golden";
+		Level = {675, 825};
+		GoldenImage = "rbxassetid://2540387866";
+		GoldenReferenceName = "Tiger Golden";
 	};
 	["13001"] = {
 		DisplayName = "Alien";
@@ -1181,166 +1181,6 @@ return {
 		GoldenImage = "rbxassetid://2553774227";
 		GoldenReferenceName = "Agony Golden";
 	};
-	["76001"] = {
-		DisplayName = "Festive Cat";
-		ReferenceName = "Festive Cat";
-		Image = "rbxassetid://2672266313";
-		Rarity = 6;
-		Height = 1;
-		Level = {3000, 4500};
-		GoldenImage = "rbxassetid://2672267455";
-		GoldenReferenceName = "Festive Cat Golden";
-	};
-	["76002"] = {
-		DisplayName = "Festive Dog";
-		ReferenceName = "Festive Dog";
-		Image = "rbxassetid://2672266211";
-		Rarity = 6;
-		Height = 1;
-		Level = {3000, 4500};
-		GoldenImage = "rbxassetid://2672267537";
-		GoldenReferenceName = "Festive Dog Golden";
-	};
-	["76003"] = {
-		DisplayName = "Festive Bunny";
-		ReferenceName = "Festive Bunny";
-		Image = "rbxassetid://2672266445";
-		Rarity = 6;
-		Height = 1;
-		Level = {3000, 4500};
-		GoldenImage = "rbxassetid://2672267621";
-		GoldenReferenceName = "Festive Bunny Golden";
-	};
-	["76004"] = {
-		DisplayName = "Festive Racoon";
-		ReferenceName = "Festive Racoon";
-		Image = "rbxassetid://2672266528";
-		Rarity = 7;
-		Height = 1;
-		Level = {4500, 5000};
-		GoldenImage = "rbxassetid://2672267683";
-		GoldenReferenceName = "Festive Racoon Golden";
-	};
-	["77001"] = {
-		DisplayName = "Festive Seal";
-		ReferenceName = "Festive Seal";
-		Image = "rbxassetid://2672266605";
-		Rarity = 6;
-		Height = 1;
-		Level = {70000, 100000};
-		GoldenImage = "rbxassetid://2672267749";
-		GoldenReferenceName = "Festive Seal Golden";
-	};
-	["77002"] = {
-		DisplayName = "Festive Dragon";
-		ReferenceName = "Festive Dragon";
-		Image = "rbxassetid://2672266369";
-		Rarity = 6;
-		Height = 1;
-		Level = {85000, 110000};
-		GoldenImage = "rbxassetid://2672267378";
-		GoldenReferenceName = "Festive Dragon Golden";
-	};
-	["77003"] = {
-		DisplayName = "Snow Spike";
-		ReferenceName = "Snow Spike";
-		Image = "rbxassetid://2672266755";
-		Rarity = 6;
-		Height = 1;
-		Level = {85000, 110000};
-		GoldenImage = "rbxassetid://2553774588";
-		GoldenReferenceName = "Spike Golden";
-	};
-	["77004"] = {
-		DisplayName = "Ice Spike";
-		ReferenceName = "Ice Spike";
-		Image = "rbxassetid://2672266803";
-		Rarity = 6;
-		Height = 1;
-		Level = {95000, 114000};
-		GoldenImage = "rbxassetid://2553774588";
-		GoldenReferenceName = "Spike Golden";
-	};
-	["78001"] = {
-		DisplayName = "Festive Ame Damnee";
-		ReferenceName = "Festive Ame Damnee";
-		Image = "rbxassetid://2672266687";
-		Rarity = 6;
-		Height = 1;
-		Level = {1200000, 1400000};
-		GoldenImage = "rbxassetid://2540375293";
-		GoldenReferenceName = "Ame Damnee Golden";
-	};
-	["78002"] = {
-		DisplayName = "Gingerbread";
-		ReferenceName = "Gingerbread";
-		Image = "rbxassetid://2672266105";
-		Rarity = 6;
-		Height = 1;
-		Level = {1200000, 1400000};
-		GoldenImage = "rbxassetid://2672267318";
-		GoldenReferenceName = "Gingerbread Golden";
-	};
-	["78003"] = {
-		DisplayName = "Reindeer";
-		ReferenceName = "Reindeer";
-		Image = "rbxassetid://2672266955";
-		Rarity = 6;
-		Height = 1;
-		Level = {1200000, 1400000};
-		GoldenImage = "rbxassetid://2672267910";
-		GoldenReferenceName = "Reindeer Golden";
-	};
-	["78004"] = {
-		DisplayName = "Festive Dominus";
-		ReferenceName = "Festive Dominus";
-		Image = "rbxassetid://2672266852";
-		Rarity = 8;
-		Height = 1;
-		Level = {1700000, 1900000};
-		GoldenImage = "rbxassetid://2672267855";
-		GoldenReferenceName = "Festive Dominus Golden";
-	};
-	["78005"] = {
-		DisplayName = "Randolph";
-		ReferenceName = "Randolph";
-		Image = "rbxassetid://2672267026";
-		Rarity = 10;
-		Height = 2.3;
-		Level = {7000000, 9000000};
-		GoldenImage = "rbxassetid://2672267963";
-		GoldenReferenceName = "Randolph Golden";
-	};
-	["79001"] = {
-		DisplayName = "Festive Immortuos";
-		ReferenceName = "Festive Immortuos";
-		Image = "rbxassetid://2672267259";
-		Rarity = 6;
-		Height = 1;
-		Level = {3000000, 4000000};
-		GoldenImage = "rbxassetid://2672267805";
-		GoldenReferenceName = "Festive Immortuos Golden";
-	};
-	["79002"] = {
-		DisplayName = "Festive C0RE";
-		ReferenceName = "Festive Core";
-		Image = "rbxassetid://2672267106";
-		Rarity = 7;
-		Height = 1;
-		Level = {3500000, 4250000};
-		GoldenImage = "rbxassetid://2540377344";
-		GoldenReferenceName = "Core Golden";
-	};
-	["79003"] = {
-		DisplayName = "Giant Penguin";
-		ReferenceName = "Giant Penguin";
-		Image = "rbxassetid://2672267187";
-		Rarity = 10;
-		Height = 2.2;
-		Level = {12500000, 14000000};
-		GoldenImage = "rbxassetid://2672268023";
-		GoldenReferenceName = "Giant Penguin Golden";
-	};
 	["90001"] = {
 		DisplayName = "BIG Maskot";
 		ReferenceName = "BIG Games";
@@ -1552,5 +1392,165 @@ return {
 		Level = {900000, 1100000};
 		GoldenImage = "rbxassetid://2551520199";
 		GoldenReferenceName = "Skeleton Ghost Golden";
+	};
+	["76001"] = {
+		DisplayName = "Festive Cat";
+		ReferenceName = "Festive Cat";
+		Image = "rbxassetid://2672266313";
+		Rarity = 6;
+		Height = 1;
+		Level = {3000, 4500};
+		GoldenImage = "rbxassetid://2672267455";
+		GoldenReferenceName = "Festive Cat Golden";
+	};
+	["76002"] = {
+		DisplayName = "Festive Dog";
+		ReferenceName = "Festive Dog";
+		Image = "rbxassetid://2672266211";
+		Rarity = 6;
+		Height = 1;
+		Level = {3000, 4500};
+		GoldenImage = "rbxassetid://2672267537";
+		GoldenReferenceName = "Festive Dog Golden";
+	};
+	["76003"] = {
+		DisplayName = "Festive Bunny";
+		ReferenceName = "Festive Bunny";
+		Image = "rbxassetid://2672266445";
+		Rarity = 6;
+		Height = 1;
+		Level = {3000, 4500};
+		GoldenImage = "rbxassetid://2672267621";
+		GoldenReferenceName = "Festive Bunny Golden";
+	};
+	["76004"] = {
+		DisplayName = "Festive Racoon";
+		ReferenceName = "Festive Racoon";
+		Image = "rbxassetid://2672266528";
+		Rarity = 7;
+		Height = 1;
+		Level = {4500, 5000};
+		GoldenImage = "rbxassetid://2672267683";
+		GoldenReferenceName = "Festive Racoon Golden";
+	};
+	["77001"] = {
+		DisplayName = "Festive Seal";
+		ReferenceName = "Festive Seal";
+		Image = "rbxassetid://2672266605";
+		Rarity = 6;
+		Height = 1;
+		Level = {70000, 100000};
+		GoldenImage = "rbxassetid://2672267749";
+		GoldenReferenceName = "Festive Seal Golden";
+	};
+	["77002"] = {
+		DisplayName = "Festive Dragon";
+		ReferenceName = "Festive Dragon";
+		Image = "rbxassetid://2672266369";
+		Rarity = 6;
+		Height = 1;
+		Level = {85000, 110000};
+		GoldenImage = "rbxassetid://2672267378";
+		GoldenReferenceName = "Festive Dragon Golden";
+	};
+	["77003"] = {
+		DisplayName = "Snow Spike";
+		ReferenceName = "Snow Spike";
+		Image = "rbxassetid://2672266755";
+		Rarity = 6;
+		Height = 1;
+		Level = {85000, 110000};
+		GoldenImage = "rbxassetid://2553774588";
+		GoldenReferenceName = "Spike Golden";
+	};
+	["77004"] = {
+		DisplayName = "Ice Spike";
+		ReferenceName = "Ice Spike";
+		Image = "rbxassetid://2672266803";
+		Rarity = 6;
+		Height = 1;
+		Level = {95000, 114000};
+		GoldenImage = "rbxassetid://2553774588";
+		GoldenReferenceName = "Spike Golden";
+	};
+	["78001"] = {
+		DisplayName = "Festive Ame Damnee";
+		ReferenceName = "Festive Ame Damnee";
+		Image = "rbxassetid://2672266687";
+		Rarity = 6;
+		Height = 1;
+		Level = {1200000, 1400000};
+		GoldenImage = "rbxassetid://2540375293";
+		GoldenReferenceName = "Ame Damnee Golden";
+	};
+	["78002"] = {
+		DisplayName = "Gingerbread";
+		ReferenceName = "Gingerbread";
+		Image = "rbxassetid://2672266105";
+		Rarity = 6;
+		Height = 1;
+		Level = {1200000, 1400000};
+		GoldenImage = "rbxassetid://2672267318";
+		GoldenReferenceName = "Gingerbread Golden";
+	};
+	["78003"] = {
+		DisplayName = "Reindeer";
+		ReferenceName = "Reindeer";
+		Image = "rbxassetid://2672266955";
+		Rarity = 6;
+		Height = 1;
+		Level = {1200000, 1400000};
+		GoldenImage = "rbxassetid://2672267910";
+		GoldenReferenceName = "Reindeer Golden";
+	};
+	["78004"] = {
+		DisplayName = "Festive Dominus";
+		ReferenceName = "Festive Dominus";
+		Image = "rbxassetid://2672266852";
+		Rarity = 8;
+		Height = 1;
+		Level = {1700000, 1900000};
+		GoldenImage = "rbxassetid://2672267855";
+		GoldenReferenceName = "Festive Dominus Golden";
+	};
+	["78005"] = {
+		DisplayName = "Randolph";
+		ReferenceName = "Randolph";
+		Image = "rbxassetid://2672267026";
+		Rarity = 10;
+		Height = 2.3;
+		Level = {7000000, 9000000};
+		GoldenImage = "rbxassetid://2672267963";
+		GoldenReferenceName = "Randolph Golden";
+	};
+	["79001"] = {
+		DisplayName = "Festive Immortuos";
+		ReferenceName = "Festive Immortuos";
+		Image = "rbxassetid://2672267259";
+		Rarity = 6;
+		Height = 1;
+		Level = {3000000, 4000000};
+		GoldenImage = "rbxassetid://2672267805";
+		GoldenReferenceName = "Festive Immortuos Golden";
+	};
+	["79002"] = {
+		DisplayName = "Festive C0RE";
+		ReferenceName = "Festive Core";
+		Image = "rbxassetid://2672267106";
+		Rarity = 7;
+		Height = 1;
+		Level = {3500000, 4250000};
+		GoldenImage = "rbxassetid://2540377344";
+		GoldenReferenceName = "Core Golden";
+	};
+	["79003"] = {
+		DisplayName = "Giant Penguin";
+		ReferenceName = "Giant Penguin";
+		Image = "rbxassetid://2672267187";
+		Rarity = 10;
+		Height = 2.2;
+		Level = {12500000, 14000000};
+		GoldenImage = "rbxassetid://2672268023";
+		GoldenReferenceName = "Giant Penguin Golden";
 	};
 }
