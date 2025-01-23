@@ -75,6 +75,9 @@ return {
 		['UTGHit'] = {'Untitled Tag Glove'},
 	},
 	['NeedGlove'] = {
-		[1] = 'Overkillhit'
+		['Events'] = {
+			[1] = 'Overkillhit'
+		},
+		['Gloves'] = {}
 	}
 }
