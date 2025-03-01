@@ -1,0 +1,202 @@
+return {
+	['Axe1'] = {
+		Damage = 0.55,
+		Range = 10,
+		SwingCooldown = 0.73
+	},
+	['Axe2'] = {
+		Damage = 0.93,
+		Range = 10,
+		SwingCooldown = 0.7
+	},
+	['Axe3'] = {
+		Damage = 1.45,
+		Range = 10,
+		SwingCooldown = 0.65
+	},
+	['AxeAlphaTesters'] = {
+		Damage = 1.5,
+		Range = 10,
+		SwingCooldown = 0.5
+	},
+	['AxeAmber'] = {
+		Damage = 3.39,
+		Range = 9,
+		SwingCooldown = 1
+	},
+	['AxeBetaTesters'] = {
+		Damage = 1.45,
+		Range = 10,
+		SwingCooldown = 0.54
+	},
+	['AxeChicken'] = {
+		Damage = 0.9,
+		Range = 10,
+		SwingCooldown = 0.3
+	},
+	['AxePie'] = {
+		Damage = 0.95,
+		Range = 15.5,
+		SwingCooldown = 0.3,
+		SpecialTrees = {
+			Cherry = {
+				Damage = 1.9,
+				SwingCooldown = 0.25
+			}
+		}
+	},
+	['AxeSwamp'] = {
+		Damage = 0.8,
+		Range = 9,
+		SwingCooldown = 0.55,
+		SpecialTrees = {
+			GoldSwampy = {
+				Damage = 5.35,
+				SwingCooldown = 0.35
+			},
+			GreenSwampy = {
+				Damage = 7,
+				SwingCooldown = 0.46
+			}
+		}
+	},
+	['AxeTwitter'] = {
+		Damage = 1.65,
+		Range = 16,
+		SwingCooldown = 0.4,
+		SpecialTrees = {
+			Volcano = {
+				Damage = 2.5,
+				SwingCooldown = 0.4
+			},
+			CaveCrawler = {
+				Damage = 3.9,
+				SwingCooldown = 0.4
+			}
+		}
+	},
+	['BasicHatchet'] = {
+		Damage = 0.2,
+		Range = 10,
+		SwingCooldown = 0.65
+	},
+	['Beesaxe'] = {
+		Damage = 1.4,
+		Range = 13,
+		SwingCooldown = 0.5
+	},
+	['BluesteelAxe'] = {
+		Damage = 2.8,
+		Range = 12,
+		SwingCooldown = 0.8,
+		SpecialTrees = {
+			BlueSpruce = {
+				Damage = 12.1,
+				SwingCooldown = 0.68
+			}
+		}
+	},
+	['CandyCaneAxe'] = {
+		Damage = 0,
+		Range = 6,
+		SwingCooldown = 0.7
+	},
+	['CandyCornAxe'] = {
+		Damage = 1.75,
+		Range = 16,
+		SwingCooldown = 0.6
+	},
+	['CaveAxe'] = {
+		Damage = 0.4,
+		Range = 10,
+		SwingCooldown = 0.4,
+		SpecialTrees = {
+			CaveCrawler = {
+				Damage = 7.2,
+				SwingCooldown = 0.22
+			}
+		}
+	},
+	['EndTimesAxe'] = {
+		Damage = 1.58,
+		Range = 9,
+		SwingCooldown = 0.4,
+		SpecialTrees = {
+			LoneCave = {
+				SwingCooldown = 0.3,
+				Damage = 10000000 or 1
+			}
+		}
+	},
+	['FireAxe'] = {
+		Damage = 0.6,
+		Range = 9,
+		SwingCooldown = 0.55,
+		SpecialTrees = {
+			Volcano = {
+				Damage = 6.35,
+				SwingCooldown = 0.35
+			}
+		}
+	},
+	['GingerbreadAxe'] = {
+		Damage = 1.2,
+		Range = 32,
+		SwingCooldown = 0.5,
+		SpecialTrees = {
+			Koa = {
+				Damage = 11,
+				SwingCooldown = 0.4
+			},
+			Walnut = {
+				Damage = 8.5,
+				SwingCooldown = 0.4
+			}
+		}
+	},
+	['IceAxe'] = {
+		Damage = 0.36,
+		Range = 9.2,
+		SwingCooldown = 0.4,
+		SpecialTrees = {
+			Frost = {
+				Damage = 6,
+				SwingCooldown = 0.31
+			}
+		}
+	},
+	['ManyAxe'] = {
+		Damage = 10.2,
+		Range = 16,
+		SwingCooldown = 1.9
+	},
+	['MintAxe'] = {
+		Damage = 0.8,
+		Range = 1,
+		SwingCooldown = 5
+	},
+	['RefinedAxe'] = {
+		Damage = 0,
+		Range = 13,
+		SwingCooldown = 0.6,
+		OnProcessedWood = {
+			Damage = 12,
+			SwingCooldown = 0.6
+		}
+	},
+	['Rukiryaxe'] = {
+		Damage = 1.68,
+		Range = 9,
+		SwingCooldown = 0.4
+	},
+	['RustyAxe'] = {
+		Damage = 0.55,
+		Range = 10,
+		SwingCooldown = 0.4
+	},
+	['SilverAxe'] = {
+		Damage = 1.6,
+		Range = 10,
+		SwingCooldown = 0.48
+	}
+}
