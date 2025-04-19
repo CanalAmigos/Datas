@@ -84,7 +84,27 @@ return {
 	['SpecialRange'] = {
 		['Events'] = {},
 		['Gloves'] = {
-			[1] = 'Extended'
+			['Extended'] = 40
 		}
 	}
 }
+--[[
+['NeedGlove'] = {
+	['Events'] = {
+		[1] = 'TestEventName'
+	},
+	['Gloves'] = {
+		[1] = 'TestGloveName'
+	}
+},
+['SpecialRange'] = {
+	['Events'] = {
+		['TestEventName'] = {
+			['TestGloveName'] = 40
+		}
+	},
+	['Gloves'] = {
+		['TestGloveName'] = 40
+	}
+}
+--]]
