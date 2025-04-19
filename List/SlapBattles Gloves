@@ -80,5 +80,11 @@ return {
 			[1] = 'Overkillhit'
 		},
 		['Gloves'] = {}
+	},
+	['SpecialRange'] = {
+		['Events'] = {},
+		['Gloves'] = {
+			[1] = 'Extended'
+		}
 	}
 }
