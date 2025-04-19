@@ -101,9 +101,7 @@ return {
 },
 ['SpecialRange'] = {
 	['Events'] = {
-		['TestEventName'] = {
-			['TestGloveName'] = 40
-		}
+		['TestEventName'] = 40
 	},
 	['Gloves'] = {
 		['TestGloveName'] = 40
