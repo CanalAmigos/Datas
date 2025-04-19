@@ -86,7 +86,9 @@ return {
 		['Gloves'] = {
 			['Extended'] = 40
 		}
-	}
+	},
+	['AuraRange'] = 20,
+	['LegitRange'] = 13
 }
 --[[
 ['NeedGlove'] = {
