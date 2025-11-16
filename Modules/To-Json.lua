@@ -65,6 +65,8 @@ function lib:TransformInJson(v: 'Primitive'): {("type" & string) | ("value" & {a
 			if string:find('inf',1,true) or string == 'nan' then
 				return lib.SaveFunctions.TemplateTable('number',string)
 			end
+		elseif typeof(v) == 'Instance' then
+			return nil
 		end
 	elseif typeof(v) == 'table' and (not v.version or tostring(v.version):sub(1,8) ~= 'Ancestor') then
 		local t = {}
