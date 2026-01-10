@@ -200,13 +200,13 @@ return {
 		SwingCooldown = 0.48
 	},
     ['InverseAxe'] = {
-        Damage = -1
-        Range = 12
+        Damage = -1,
+        Range = 12,
         SwingCooldown = 0.4
     },
     ['AxePig'] = {
-        Damage = 1.5
-        Range = 10
+        Damage = 1.5,
+        Range = 10,
         SwingCooldown = 0.5
     }
 }
