@@ -46,7 +46,7 @@ return {
 		['ThorHit'] = {'Thor'},
 		['CloudHit'] = {'Cloud'},
 		['spinhit'] = {'spin'},
-		['LeafblowerHit'] = {'Leafblower'}
+		['LeafblowerHit'] = {'Leafblower'},
 		-- Special gloves
 		['Overkillhit'] = {'OVERKILL'}, -- FireServer(arg1, script.Parent)
 		['PlagueHit'] = {'Plague'},
