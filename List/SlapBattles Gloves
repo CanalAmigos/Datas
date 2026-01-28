@@ -1,7 +1,7 @@
 return {
 	['Gloves'] = {
 		['b'] = {'Default','Extended'},
-		['GeneralHit'] = {'Dual', 'L.O.L.B.O.M.B', 'T H I C K', 'Squid', 'Hive', 'Baby', 'Mace', 'Gummy', 'Divert', 'el gato', 'Shackle', 'Iceskate', 'Blasphemy', 'Thanos', 'Equalizer', 'Track', 'Stalker', 'Prop', 'Cherry', 'Shield', 'Booster', 'Ping Pong', 'Baller', 'Home Run', 'Whirlwind', 'Slicer', 'Excavator', 'Pocket', 'Grapple', 'Gravity', 'Parry', 'Jebaited', 'Meteor', 'Oven', 'Guardian Angel', 'Sun','Ferryman','Blackhole', 'Stilts', 'Stick', 'Screwdriver', 'Pineslapple',--[[Special Gloves]] 'Chain', 'Tycoon', 'Glitch', 'Snowball', 'Elude', 'RNG', 'fish', '🗿', 'Obby', 'Voodoo', 'Goofy', 'Leash', 'Psycho', 'Counter', 'Hammer', 'Lure', 'Tinkerer', 'Jester', 'Iceskate', 'Admin', 'Joust', 'Firework', 'Glovel', 'Lamp', 'Knockoff', 'Plank', 'Spoonful', 'Eggler', 'MATERIALIZE', 'Lag'},
+		['GeneralHit'] = {'Dual', 'L.O.L.B.O.M.B', 'T H I C K', 'Squid', 'Hive', 'Baby', 'Mace', 'Gummy', 'Divert', 'el gato', 'Shackle', 'Iceskate', 'Blasphemy', 'Thanos', 'Equalizer', 'Track', 'Stalker', 'Prop', 'Cherry', 'Shield', 'Booster', 'Ping Pong', 'Baller', 'Home Run', 'Whirlwind', 'Slicer', 'Excavator', 'Pocket', 'Grapple', 'Gravity', 'Parry', 'Jebaited', 'Meteor', 'Oven', 'Guardian Angel', 'Sun','Ferryman','Blackhole', 'Stilts', 'Stick', 'Screwdriver', 'Pineslapple', 'Flick',--[[Special Gloves]] 'Chain', 'Tycoon', 'Glitch', 'Snowball', 'Elude', 'RNG', 'fish', '🗿', 'Obby', 'Voodoo', 'Goofy', 'Leash', 'Psycho', 'Counter', 'Hammer', 'Lure', 'Tinkerer', 'Jester', 'Iceskate', 'Admin', 'Joust', 'Firework', 'Glovel', 'Lamp', 'Knockoff', 'Plank', 'Spoonful', 'Eggler', 'MATERIALIZE', 'Lag'},
 		['DiamondHit'] = {'Diamond'},
 		['ZZZZZZZHit'] = {'ZZZZZZZ'},
 		['BrickHit'] = {'Brick'},
@@ -46,6 +46,7 @@ return {
 		['ThorHit'] = {'Thor'},
 		['CloudHit'] = {'Cloud'},
 		['spinhit'] = {'spin'},
+		['LeafblowerHit'] = {'Leafblower'}
 		-- Special gloves
 		['Overkillhit'] = {'OVERKILL'}, -- FireServer(arg1, script.Parent)
 		['PlagueHit'] = {'Plague'},
