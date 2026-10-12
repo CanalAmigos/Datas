@@ -208,5 +208,25 @@ return {
         Damage = 1.5,
         Range = 10,
         SwingCooldown = 0.5
-    }
+    },
+	['SpookyAxe'] = {
+		Damage = 0.2,
+		Range = 10,
+		SwingCooldown = 0.8,
+		SpecialTrees = {
+			SpookyNeon = {
+        		Damage = 8.2,
+        		SwingCooldown = 0.6
+    		},
+			Spooky = {
+       			Damage = 8.2,
+        		SwingCooldown = 0.6
+    		}
+		}
+	},
+	['GlorbAxe'] = {
+		Damage = 1.8,
+		Range = 10,
+		SwingCooldown = 0.38
+	}
 }
